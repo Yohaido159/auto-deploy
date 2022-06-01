@@ -1,1 +1,0 @@
-self.s3Config 

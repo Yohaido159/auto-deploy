@@ -1,7 +1,7 @@
 subscribers = dict()
 
 
-def subscribe(event_type: str, fn) -> None:
+async def subscribe(event_type: str, fn) -> None:
     if not event_type in subscribers:
         subscribers[event_type] = list()
 

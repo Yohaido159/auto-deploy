@@ -15,6 +15,7 @@ class Config:
     bucket_name: str
     generated_files: str
     utils_path: str
+    pip_path: str
 
 
 class ConfigLoader(Protocol):
